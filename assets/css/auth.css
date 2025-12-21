@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", "Segoe UI", Arial, sans-serif;
+    background: #f8fafc;
+    color: #0f172a;
+    line-height: 1.55;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.container {
+    width: 1200px;
+    max-width: calc(100% - 80px);
+    margin: 0 auto;
+    padding: 60px 0;
+}
+.btn {
+    display: inline-block;
+    padding: 12px 28px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    transition: 0.2s ease;
+    cursor: pointer;
+    border: none;
+}
+
+.btn.primary {
+    background: #2563eb;
+    color: #fff;
+}
+
+.btn.primary:hover {
+    background: #1e40af;
+}
+
+.btn.secondary {
+    background: #e0e7ff;
+    color: #1e3a8a;
+}
+.hero {
+    background: linear-gradient(135deg, #1e1b4b, #312e81);
+    color: #fff;
+    border-radius: 18px;
+    padding: 70px 60px;
+}
+
+.hero h1 {
+    font-size: 44px;
+    margin-bottom: 14px;
+}
+
+.hero p {
+    font-size: 16px;
+    color: #c7d2fe;
+    max-width: 640px;
+    margin-bottom: 30px;
+}
+
+.hero-actions {
+    display: flex;
+    gap: 14px;
+}
+.section-title {
+    margin-bottom: 40px;
+}
+
+.section-title h2 {
+    font-size: 30px;
+    margin-bottom: 6px;
+}
+
+.section-title p {
+    font-size: 14px;
+    color: #475569;
+}
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+}
+
+.feature-card {
+    background: #fff;
+    border-radius: 14px;
+    padding: 26px 24px;
+    border: 1px solid #e5e7eb;
+}
+
+.feature-card h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.feature-card p {
+    font-size: 14px;
+    color: #475569;
+}
+.steps {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.step {
+    background: #fff;
+    border-radius: 14px;
+    padding: 24px;
+    border: 1px solid #e5e7eb;
+}
+
+.step .number {
+    font-size: 14px;
+    font-weight: 700;
+    color: #2563eb;
+    margin-bottom: 8px;
+}
+
+.step h4 {
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+
+.step p {
+    font-size: 13px;
+    color: #475569;
+}
+.auth-box {
+    max-width: 420px;
+    margin: 80px auto;
+    background: #ffffff;
+    padding: 42px 38px;
+    border-radius: 18px;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 20px 40px rgba(15, 23, 42, 0.08);
+}
+
+.auth-box h2 {
+    font-size: 26px;
+    margin-bottom: 6px;
+}
+
+.auth-box p {
+    font-size: 14px;
+    color: #64748b;
+    margin-bottom: 28px;
+}
+
+.auth-box form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.auth-box input,
+.auth-box select {
+    width: 100%;
+    padding: 13px 14px;
+    border-radius: 12px;
+    border: 1px solid #cbd5f5;
+    font-size: 14px;
+}
+
+.auth-box input:focus,
+.auth-box select:focus {
+    outline: none;
+    border-color: #2563eb;
+}
+
+.auth-link {
+    margin-top: 22px;
+    text-align: center;
+    font-size: 14px;
+    color: #475569;
+}
+
+.auth-link a {
+    color: #2563eb;
+    font-weight: 600;
+}
+.dashboard-top {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) auto;
+    gap: 16px;
+    margin-bottom: 30px;
+}
+
+.stat-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 14px;
+    border: 1px solid #e5e7eb;
+}
+
+.stat-card span {
+    font-size: 13px;
+    color: #64748b;
+}
+
+.stat-card strong {
+    font-size: 20px;
+    display: block;
+    margin-top: 6px;
+}
+
+.stat-card.income {
+    border-left: 4px solid #22c55e;
+}
+
+.stat-card.expense {
+    border-left: 4px solid #ef4444;
+}
+.notes-list {
+    max-height: 420px;
+    overflow-y: auto;
+}
+
+.note-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #e5e7eb;
+}
+
+.note-card strong {
+    font-size: 14px;
+}
+
+.note-card small {
+    display: block;
+    font-size: 12px;
+    color: #64748b;
+}
+
+.note-card.income {
+    border-left: 4px solid #22c55e;
+}
+
+.note-card.expense {
+    border-left: 4px solid #ef4444;
+}

@@ -1,0 +1,69 @@
+.timer-container {
+    max-width: 520px;
+    margin: 40px auto;
+    padding: 24px;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.timer-container h2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.timer-form label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+
+.timer-form input,
+.timer-form textarea {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 16px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.timer-form textarea {
+    resize: none;
+    height: 80px;
+}
+
+.timer-actions {
+    display: flex;
+    gap: 12px;
+}
+
+.timer-actions button,
+.timer-actions a {
+    flex: 1;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-primary {
+    background: #2563eb;
+    color: #fff;
+}
+
+.btn-secondary {
+    background: #f1f5f9;
+    color: #111;
+}
+
+@media (max-width: 480px) {
+    .timer-container {
+        margin: 20px;
+        padding: 20px;
+    }
+}

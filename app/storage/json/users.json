@@ -1,0 +1,16 @@
+[
+    {
+        "id": "6947957b18ef7",
+        "name": "FicarHanafi",
+        "email": "ficarslebew@gmail.com",
+        "password": "$2y$10$g7yZRb7r7WXEJ.Km8X5Yv.wHLn.0q0CMO5C27\/R1vFXPW9ySNUu9m",
+        "created_at": "2025-12-21 13:36:43"
+    },
+    {
+        "id": "694795d851b9f",
+        "name": "Fatih",
+        "email": "fatihikhsan098@gmail.com",
+        "password": "$2y$10$8iKYRu3IRYH3Fh51TuerJe4CV6eM2wyQdfHPu50\/ZV98qLD3w.i6S",
+        "created_at": "2025-12-21 13:38:16"
+    }
+]
